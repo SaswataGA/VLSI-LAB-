@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/Project1/nand_gate.xst" -ofn "/home/ise/VLSI/Project1/nand_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 nand_gate.ngc nand_gate.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o nand_gate_map.ncd nand_gate.ngd nand_gate.pcf 
+par -w -intstyle ise -ol high -mt off nand_gate_map.ncd nand_gate.ncd nand_gate.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml nand_gate.twx nand_gate.ncd -o nand_gate.twr nand_gate.pcf 

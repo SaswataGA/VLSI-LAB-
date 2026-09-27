@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/ise/VLSI/Project1/adder_8bit_tb_isim_beh.exe" -prj "/home/ise/VLSI/Project1/adder_8bit_tb_beh.prj" "work.adder_8bit_tb" 

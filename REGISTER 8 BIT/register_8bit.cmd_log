@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/project2retry/register_8bit.xst" -ofn "/home/ise/VLSI/project2retry/register_8bit.syr" 

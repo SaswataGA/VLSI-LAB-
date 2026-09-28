@@ -142,7 +142,6 @@ The existing verified Full Adder becomes a reusable hardware building block.
 The complete architecture can be represented as:
 
 ```text
-                         ┌──────────────────────────┐
                          │      8-BIT ADDER         │
                          └────────────┬─────────────┘
                                       │

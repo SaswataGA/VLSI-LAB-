@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/VLSI/project2retry/not_gate.xst" -ofn "/home/ise/VLSI/project2retry/not_gate.syr" 

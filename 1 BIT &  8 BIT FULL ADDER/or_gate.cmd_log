@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/VLSI/8bit ALU/8 bit ALU/or_gate.xst" -ofn "/home/ise/VLSI/8bit ALU/8 bit ALU/or_gate.syr" 

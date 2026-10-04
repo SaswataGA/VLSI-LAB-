@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "/home/ise/VLSI/8bit ALU/8 bit ALU/mux2.xst" -ofn "/home/ise/VLSI/8bit ALU/8 bit ALU/mux2.syr" 

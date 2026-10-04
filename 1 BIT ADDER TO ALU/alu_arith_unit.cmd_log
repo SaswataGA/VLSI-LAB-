@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/8bit ALU/8 bit ALU/alu_arith_unit.xst" -ofn "/home/ise/VLSI/8bit ALU/8 bit ALU/alu_arith_unit.syr" 

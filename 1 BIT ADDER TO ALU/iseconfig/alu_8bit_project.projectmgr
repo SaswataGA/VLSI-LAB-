@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="alu_8bit_project" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/HIGH_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U1 - half_adder - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/HIGH_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/HIGH_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U1 - half_adder - Structural/U1 - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U1 - half_adder - Structural/U2 - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural/U1 - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U2 - half_adder - Structural/U2 - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural/U1 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_ADD - adder_8bit - Structural/LOW_NIBBLE - adder_4bit - Structural/FA - full_adder - Structural/U3 - or_gate - Structural/U2 - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_CHG - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_CIN - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_INV - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_OVF - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_SAME - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/ARITH - alu_arith_unit - Structural/U_SXOR - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/LOGIC - alu_logic_unit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_A - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_B - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_C - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_N - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_R - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_V - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/REG_Z - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/U_C - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/U_ISARITH - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/U_V - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/U_XOR21 - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit - Structural |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit.vhd/U_Z - zero_detect_8 - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>REG_A - register_8bit - Structural (/home/ise/VLSI/8bit ALU/8 bit ALU/register_8bit.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000148000000020000000000000000000000000200000064ffffffff000000810000000300000002000001480000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>REG_A - register_8bit - Structural (/home/ise/VLSI/8bit ALU/8 bit ALU/register_8bit.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000198000000010000000100000000000000000000000064ffffffff000000810000000000000001000001980000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000004d0000000040101000100000000000000000000000064ffffffff000000810000000000000004000000b400000001000000000000005d00000001000000000000008400000001000000000000033b0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>adder_4bit.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/adder_4bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|adder_4bit_tb.vhd</ClosedNode>
+         <ClosedNode>/adder_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|adder_8bit_tb.vhd</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/ARITH - alu_arith_unit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/LOGIC - alu_logic_unit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_A - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_B - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_C - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_N - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_R - register_8bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_V - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/REG_Z - register_1bit - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/U_C - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/U_ISARITH - not_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/U_V - and_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/U_XOR21 - xor_gate - Structural</ClosedNode>
+         <ClosedNode>/alu_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_8bit_tb.vhd/UUT - alu_8bit - Structural/U_Z - zero_detect_8 - Structural</ClosedNode>
+         <ClosedNode>/alu_arith_unit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_arith_unit_tb.vhd</ClosedNode>
+         <ClosedNode>/alu_logic_unit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|alu_logic_unit_tb.vhd</ClosedNode>
+         <ClosedNode>/and_gate_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|and_gate_tb.vhd</ClosedNode>
+         <ClosedNode>/d_latch_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|d_latch_tb.vhd</ClosedNode>
+         <ClosedNode>/full_adder_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|full_adder_tb.vhd</ClosedNode>
+         <ClosedNode>/half_adder_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|half_adder_tb.vhd</ClosedNode>
+         <ClosedNode>/master_slave_ff_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|master_slave_ff_tb.vhd</ClosedNode>
+         <ClosedNode>/mux2_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|mux2_tb.vhd</ClosedNode>
+         <ClosedNode>/mux4_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|mux4_tb.vhd</ClosedNode>
+         <ClosedNode>/nand_gate_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|nand_gate_tb.vhd</ClosedNode>
+         <ClosedNode>/not_gate_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|not_gate_tb.vhd</ClosedNode>
+         <ClosedNode>/or_gate_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|or_gate_tb.vhd</ClosedNode>
+         <ClosedNode>/register_1bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|register_1bit_tb.vhd</ClosedNode>
+         <ClosedNode>/register_8bit_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|register_8bit_tb.vhd</ClosedNode>
+         <ClosedNode>/sr_latch_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|sr_latch_tb.vhd</ClosedNode>
+         <ClosedNode>/xor_gate_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|xor_gate_tb.vhd</ClosedNode>
+         <ClosedNode>/zero_detect_8_tb - Behavioral |home|ise|VLSI|8bit ALU|8 bit ALU|zero_detect_8_tb.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>REG_A - register_8bit - Structural (/home/ise/VLSI/8bit ALU/8 bit ALU/register_8bit.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000147000000020000000000000000000000000200000064ffffffff000000810000000300000002000001470000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>REG_A - register_8bit - Structural (/home/ise/VLSI/8bit ALU/8 bit ALU/register_8bit.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000198000000010000000100000000000000000000000064ffffffff000000810000000000000001000001980000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000198000000010000000100000000000000000000000064ffffffff000000810000000000000001000001980000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

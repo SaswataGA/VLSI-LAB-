@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/8bit_CPU_Project/8bit_CPU_Project/Set0_AND_JZ_NOT/program_rom.xst" -ofn "/home/ise/VLSI/8bit_CPU_Project/8bit_CPU_Project/Set0_AND_JZ_NOT/program_rom.syr" 
+xst -intstyle ise -ifn "/home/ise/VLSI/8bit_CPU_Project/8bit_CPU_Project/Set0_AND_JZ_NOT/program_rom.xst" -ofn "/home/ise/VLSI/8bit_CPU_Project/8bit_CPU_Project/Set0_AND_JZ_NOT/program_rom.syr" 

@@ -1,0 +1,77 @@
+MINI 8-BIT ACCUMULATOR CPU  -  SET 0
+============================================================
+Complete instruction set : LDI, ADD, AND, JZ, NOT
+Mandatory                : LDI, ADD
+Assigned (Set 0)         : AND, JZ, NOT
+
+ISE project file : cpu_set0.xise   (open with File > Open Project in ISE 14.7)
+Top module       : cpu        (CLK, RESET, Q[7:0] = ACC, Z, PC[3:0])
+Main testbench   : cpu_tb    (runs the Appendix B program and checks every cycle)
+
+PROGRAM ROM (Appendix B)
+------------------------------------------------------------
+   0: LDI 0xA5   -> 0x1A5
+   1: AND 0x5A   -> 0x45A
+   2: JZ 0x05    -> 0xC05
+   3: ADD 0x01   -> 0x201
+   4: ADD 0x01   -> 0x201
+   5: NOT        -> 0x700
+   6: AND 0x0F   -> 0x40F
+   7: JZ 0x00    -> 0xC00
+   8: ADD 0x01   -> 0x201
+  all other addresses: 0x000 (NOP)
+
+EXPECTED RESULTS (values after each rising edge; this is what cpu_tb checks)
+------------------------------------------------------------
+  Cycle PC  Instruction           ACC   Z  ACC(bin)  Next PC
+  0     -   RESET = 1             0x00  1  00000000  0
+  1     0   LDI 0xA5              0xA5  0  10100101  1
+  2     1   AND 0x5A              0x00  1  00000000  2
+  3     2   JZ 0x05  (taken)      0x00  1  00000000  5
+  4     5   NOT                   0xFF  0  11111111  6
+  5     6   AND 0x0F              0x0F  0  00001111  7
+  6     7   JZ 0x00  (not taken)  0x0F  0  00001111  8
+  7     8   ADD 0x01              0x10  0  00010000  9
+
+SIMULATION TEST STATUS (all run and passed before packaging)
+------------------------------------------------------------
+  PASS  nand_gate_tb
+  PASS  not_gate_tb
+  PASS  and_gate_tb
+  PASS  xor_gate_tb
+  PASS  or_gate_tb
+  PASS  half_adder_tb
+  PASS  full_adder_tb
+  PASS  adder_4bit_tb
+  PASS  adder_8bit_tb
+  PASS  sr_latch_tb
+  PASS  d_latch_tb
+  PASS  master_slave_ff_tb
+  PASS  mux2_tb
+  PASS  mux4_tb
+  PASS  register_1bit_tb
+  PASS  register_8bit_tb
+  PASS  register_4bit_tb
+  PASS  register_1bit_set_tb
+  PASS  zero_detect_8_tb
+  PASS  alu_logic_unit_tb
+  PASS  alu_arith_unit_tb
+  PASS  alu_8bit_tb
+  PASS  decoder_4to16_tb
+  PASS  program_counter_tb
+  PASS  program_rom_tb
+  PASS  control_unit_tb
+  PASS  cpu_alu_tb
+  PASS  cpu_tb
+  PASS  no_undefined_after_reset
+
+HOW TO SIMULATE IN ISE 14.7
+------------------------------------------------------------
+  1. File > Open Project > cpu_set0.xise
+  2. In the Design panel choose "Simulation" (not Implementation).
+  3. Select  cpu_tb  ->  Processes: ISim Simulator -> Simulate Behavioral Model.
+  4. In the ISim console you will see one line per cycle ("... | OK") and a final
+     "PASS: cpu testbench completed" line.  Waveform signals: CLK, RESET, PC, ACC, Z.
+  5. Click "Zoom to Full View" (or Home) to see all cycles, then take the screenshot.
+     Signals are undefined (red) only for the first 1 ns, before the RESET edge - that is normal.
+     The exp_acc / exp_z / exp_pc signals show the Appendix B values for comparison.
